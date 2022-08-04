@@ -13,7 +13,6 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThatThrownBy;
 @Slf4j
 @SpringBootTest
 public class AOPTest {
-
     @Autowired
     OrderService orderService;
 
